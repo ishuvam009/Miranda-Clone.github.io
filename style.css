@@ -36,7 +36,7 @@ html, body {
 }
 
 #elems {
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
     height: 300px;
     display: flex;
     align-items: center;
@@ -48,21 +48,24 @@ html, body {
 #elem1 {
     width: 30%;
     height: 100%;
-    background-color: blue;
+    /* background-color: blue; */
     padding: 30px 50px;
 }
 
 #elem2 {
     width: 30%;
     height: 100%;
-    background-color: blue;
+    /* background-color: blue; */
+    
+    border-left: 1px solid black;
+    border-right: 1px solid black;
     padding: 30px 50px;
 }
 
 #elem3 {
     width: 30%;
     height: 100%;
-    background-color: blue;
+    /* background-color: blue; */
     padding: 30px 50px;
 }
 
