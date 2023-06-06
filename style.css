@@ -1,3 +1,8 @@
+@font-face {
+    font-family: font3;
+    src: url(/fonts/font3.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +15,7 @@ html, body {
 }
 
 #page1{
-    height: 100vh;
+    height: 80vh;
     width: 100vw;
     background-color: #C6BEB4;
     position: relative;
@@ -41,7 +46,7 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    padding: 18px 0;
 
 }
 
@@ -49,7 +54,7 @@ html, body {
     width: 30%;
     height: 100%;
     /* background-color: blue; */
-    padding: 30px 50px;
+    padding: 20px 50px;
 }
 
 #elem2 {
@@ -59,14 +64,15 @@ html, body {
     
     border-left: 1px solid black;
     border-right: 1px solid black;
-    padding: 30px 50px;
+    padding: 10px 50px;
+    text-align: center;
 }
 
 #elem3 {
     width: 30%;
     height: 100%;
     /* background-color: blue; */
-    padding: 30px 50px;
+    padding: 20px 50px;
 }
 
 #elem1 #image-div {
@@ -92,3 +98,88 @@ html, body {
     transition: all ease 0.5s;
 }
 
+#elem1 h4{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Canopee;
+}
+
+#elem1 h4 span{
+    background-color: #B93C12;
+    color: #C6BEB4;
+    font-weight: 100;
+    font-size: 14px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+#elem1 p{
+    font-size: 22px;
+    font-family: font3;
+    font-weight: 10;
+    color: #555454;
+}
+
+
+#elem2 h2{
+    font-family: canopee;
+    font-size: 65px;
+    font-weight: 100;
+}
+
+#elem2 h3{
+    font-family: font3;
+    font-size: 30px;
+    font-weight: 100;
+    color: #555454;
+}
+
+#elem2 p{
+    font-size: 15px;
+    font-family: font3;
+    font-weight: 10;
+    color: #555454;
+    padding: 10px 0;
+}
+
+#elem3 h4{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Canopee;
+    /* color: #555454; */
+}
+
+#elem3 h4 span{
+    background-color: #B93C12;
+    color: #C6BEB4;
+    font-weight: 100;
+    font-size: 14px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+#elem3 p{
+    font-size: 22px;
+    font-family: font3;
+    font-weight: 10;
+    color: #555454;
+}
+
+#miranda h1{
+    font-family: canopee;
+    font-size: 430px;
+    font-weight: 100;
+    color: #C6BEB4;
+    background-color: #1B1B19;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 400px;
+}
+
+#miranda {
+    background-color: #C6BEB4;
+}
